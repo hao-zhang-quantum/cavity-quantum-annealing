@@ -1,10 +1,12 @@
 # Cavity quantum annealing
 
-[![arXiv](https://img.shields.io/badge/arXiv-2609.33975-b31b1b.svg)](https://arxiv.org/abs/2609.33975)
+[![arXiv](https://img.shields.io/badge/arXiv-2609.33975-1f6feb.svg)](https://arxiv.org/abs/2609.33975)
 
 Minimal code for H. Zhang, *Swapping Quantum Annealing Errors into a Cavity*,
-[arXiv:2609.33975](https://arxiv.org/abs/2609.33975) (2026). It simulates a quantum annealer (the
-ferromagnetic p-spin model) coupled to one cavity mode and reproduces the paper's reference point.
+[arXiv:2609.33975](https://arxiv.org/abs/2609.33975) (2026).
+
+It simulates a quantum annealer (the ferromagnetic p-spin model) coupled to one cavity mode and
+reproduces the paper's reference point.
 
 ## Model
 
