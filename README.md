@@ -1,6 +1,9 @@
 # Cavity quantum annealing
 
-Minimal code for *Cavity quantum annealing*. It simulates a quantum annealer (the
+[![arXiv](https://img.shields.io/badge/arXiv-2609.33975-b31b1b.svg)](https://arxiv.org/abs/2609.33975)
+
+Minimal code for H. Zhang, *Swapping Quantum Annealing Errors into a Cavity*,
+[arXiv:2609.33975](https://arxiv.org/abs/2609.33975) (2026). It simulates a quantum annealer (the
 ferromagnetic p-spin model) coupled to one cavity mode and reproduces the paper's reference point.
 
 ## Model
@@ -43,6 +46,20 @@ deviation is below $10^{-4}$.
 | `cqa.py`            | model (`CavityAnneal`) and integrator (`evolve`) |
 | `example_N24.py`    | reference-point example and figure                   |
 | `test_reference.py` | check against the paper's data                       |
+
+## Citation
+
+```bibtex
+@misc{Zhang2026SwappingQA,
+  title         = {Swapping Quantum Annealing Errors into a Cavity},
+  author        = {Zhang, Hao},
+  year          = {2026},
+  eprint        = {2609.33975},
+  archivePrefix = {arXiv},
+  primaryClass  = {quant-ph},
+  url           = {https://arxiv.org/abs/2609.33975}
+}
+```
 
 ## License
 
